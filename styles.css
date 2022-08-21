@@ -1,198 +1,192 @@
-body{
-    width: 100%;
-    height: 100%;
+body {
+  width: 100%;
+  height: 100%;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
-    margin-left: -12px;
-    margin-right: -12px;
-    margin-top: -10px;
-    height: 100px;
-
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  margin-left: -12px;
+  margin-right: -20px;
+  margin-top: -10px;
+  height: 100px;
 }
 
 .header-logo-1 {
-     padding-top: 10px;
-     padding-left: 30px;
+  padding-top: 10px;
+  padding-left: 30px;
 }
 
 .header-logo-2 {
-    padding-left: 15%;
+  padding-left: 15%;
 }
 
-ul{
-    display: flex;
-    gap: 40px;
-    list-style-type: none;
-    text-align: center;
-    align-items: center;
+ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
 }
 
 li {
-    color: white;
-    margin-right: 10px;
-    cursor: pointer;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 /* Hero banner */
 
 .hero-banner {
-    display: flex;
-    background-color: beige;
-    align-items: center;
-    justify-content: center;
-    height: 35rem;
-    margin-left: -12px;
-    margin-right: -12px;
-    background-image: url(https://preview.redd.it/zcywk46modh41.jpg?auto=webp&s=479dc3c0e301839f8b07f48c417df81661e2ade4);
+  display: flex;
+  background-color: beige;
+  align-items: center;
+  justify-content: center;
+  height: 35rem;
+  margin-left: -12px;
+  margin-right: -20px;
+  background-image: url(https://preview.redd.it/zcywk46modh41.jpg?auto=webp&s=479dc3c0e301839f8b07f48c417df81661e2ade4);
 }
 
-
-
-.hero-header{
-    font-weight: bold;
-    max-width: 300px;
+.hero-header {
+  font-weight: bold;
+  max-width: 300px;
 }
 
 .hero-text {
-    max-width: 400px;
-    padding-right: 50px;
-    font-size: 18px;
-    font-weight: bold;
+  max-width: 400px;
+  padding-right: 50px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .hero-img {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 500px;
-    border: 12px solid black;
-    border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 500px;
+  border: 12px solid black;
+  border-radius: 10px;
 }
 
-.hero-btn{
-    color: white;
-    background-color: rgb(39, 119, 184);
-    font-weight: bold;
-    padding: 5px;
-    width: 100px;
-    cursor: pointer;
-    border-color: rgb(39, 119, 184);
-    border-radius: 10px;
+.hero-btn {
+  color: white;
+  background-color: rgb(39, 119, 184);
+  font-weight: bold;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+  border-color: rgb(39, 119, 184);
+  border-radius: 10px;
 }
 /* info */
 
 .info-container {
-    
-    background-color: black;
-    margin: -21px -20px;
-    height: 600px;
+  background-color: black;
+  margin: -21px -20px;
+  height: 600px;
 }
 
 .info-title {
-    text-align: center;
-    color: white;
-    padding: 25px;
+  text-align: center;
+  color: white;
+  padding: 25px;
 }
 
 .info-container-section {
-    display:flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
 }
 
 .info-section {
-    color: white;
-    padding: 20px;
-    font-size: 12.5px;
-    text-align: center;
-    
+  color: white;
+  padding: 20px;
+  font-size: 12.5px;
+  text-align: center;
+}
+
+.info-section > p {
+  padding-right: 20px;
 }
 
 .info-img {
-    width: 160px;
-    height: 255px;   
+  width: 160px;
+  height: 255px;
 }
-
-
 
 /* quote */
 
 .quote-section {
-    display: flex;
-    margin-top: 21px;
-    margin-left: -20px;
-    margin-right: -20px;
-    height: 450px;  
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(rgb(121, 134, 115), gray);
+  display: flex;
+  margin-top: 21px;
+  margin-left: -20px;
+  margin-right: -20px;
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgb(121, 134, 115), gray);
 }
 
 .quote-container {
-    /* padding-top: 100px; */
-    align-items: center;
+  /* padding-top: 100px; */
+  align-items: center;
 }
 
 .quote-text {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    /* padding: 0 300px; */
-    font-size: 30px;
-
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* padding: 0 300px; */
+  font-size: 30px;
 }
 
 .quote-author-text {
-    display: flex;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    justify-content: flex-end;
-    padding-right: 30px; 
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  justify-content: flex-end;
+  padding-right: 30px;
 }
 
 /* Footer */
 
 .footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    background-color: black;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: black;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(121, 134, 115);
-    width: 80%;
-    border-radius: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(121, 134, 115);
+  width: 80%;
+  border-radius: 250px;
 }
 
-
 .footer-info {
-    padding: 15px 15px;
-    margin-left: 100px;
+  padding: 15px 15px;
+  margin-left: 100px;
 }
 
 .footer-btn {
-    display: flex;
-    padding: 5px 5px;
-    width: 100px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-right: 55px;
-    border-radius: 10px;
-    font-size: 15px;
-    background-color: rgb(52, 145, 189);
-    border-color:rgb(52, 145, 189);
+  display: flex;
+  padding: 5px 5px;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 55px;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: rgb(52, 145, 189);
+  border-color: rgb(52, 145, 189);
 }
