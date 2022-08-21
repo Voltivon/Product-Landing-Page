@@ -1,0 +1,171 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-top: -10px;
+    height: 100px;
+
+}
+
+.header-logo-1 {
+     padding-top: 10px;
+     padding-left: 30px;
+}
+
+.header-logo-2 {
+    padding-left: 150px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+}
+
+li {
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Hero banner */
+
+.hero-banner {
+    display: flex;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    height: 35rem;
+    margin-left: -12px;
+    margin-right: -12px;
+    background-image: url(https://preview.redd.it/zcywk46modh41.jpg?auto=webp&s=479dc3c0e301839f8b07f48c417df81661e2ade4);
+}
+
+.hero-title{
+   
+}
+
+.hero-header{
+    font-weight: bold;
+    max-width: 300px;
+}
+
+.hero-text {
+    max-width: 400px;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 500px;
+    border: 12px solid black;
+
+}
+
+.hero-btn{
+    color: white;
+    background-color: rgb(39, 119, 184);
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+/* info */
+
+.info-container {
+    background-color: black;
+    margin: -21px -20px;
+    height: 600px;
+}
+
+.info-title {
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.info-container-section {
+    display:flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info-section {
+    color: white;
+    padding: 20px;
+}
+
+.info-img {
+    width: 260px;
+    height: 305px;
+    padding-left: 80px;
+}
+
+/* quote */
+
+.quote-section {
+    display: flex;
+    background-color: beige;
+    margin-top: 21px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 450px;  
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    /* padding-top: 100px; */
+    align-items: center;
+}
+
+.quote-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* padding: 0 300px; */
+    font-size: 30px;
+
+}
+
+.quote-author-text {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    justify-content: flex-end;
+    padding-right: 30px; 
+}
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.footer {
+    background-color: beige;
+}
+
+.footer-text {
+
+}
+
+.footer-btn {
+
+}
+
